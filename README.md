@@ -31,11 +31,22 @@ Within the realm of twisted-pair cables, there are two types of twisted-pair cab
 1. STP (Shielded Twisted-Pair)
 2. UTP (Unshielded Twisted-Pair)
 
-STP cables have a layer of shielding around the pairs of wires, and grounding is required. STP cables are great for environments that have a lot of interference (electrical noise). UTP cables do not have this shielding, and is much more commonly used in homes. 
+STP cables have a layer of shielding around the whole cable, and/or each pair of wires; grounding is also required. STP cables are great for environments that have a lot of interference (electrical noise). UTP cables do not have this shielding, and is much more commonly used in homes. 
 
 ![STP and UTP Cables](https://github.com/johnnyh209/Crimping-An-Ethernet-Cable/assets/33064730/2a0a0122-f8a5-4faa-a054-51a6c70eaaba)
 
+There should be lettering on the outside of the cable that indicates what shielding is used inside. Three letters are used:
 
+1. U = Unshielded
+2. S = Braided Shielding
+3. F = Foil Shielding
+
+These letters are written in the following format:
+`[Overall cable shielding] / [Individual pair shielding]TP`
+
+For example: F/UTP = there is foil shielding around the cable, but there is no shielding around each individual pair. TP just denotes that it is a twisted-pair cable.
+
+# Crimping Ethernet Cable
 
 https://www.digitaltrends.com/computing/different-types-of-ethernet-cables-explained/
 https://docs.seattlecommunitynetwork.org/learn/cable-crimping.html
