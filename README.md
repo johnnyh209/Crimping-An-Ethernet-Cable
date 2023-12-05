@@ -48,6 +48,25 @@ For example: F/UTP = there is foil shielding around the cable, but there is no s
 
 # Crimping Ethernet Cable
 
+Several items will be needed to crimp an ethernet cable:
+
+* RJ45 Crimping Tool
+* Cable Stripper
+* RJ45 Strain Relief Boots
+* RJ45 Connector
+* Cable Tester
+* Ethernet Cable
+
+![Tools](https://github.com/johnnyh209/Crimping-An-Ethernet-Cable/assets/33064730/d04356ca-beca-4ee2-a140-e869aa33591c)
+
+1. Insert two RJ45 Strain Relief Boots, one on each end of the ethernet cable.
+2. With the cable stripper, make a cut on the outer sheath of the ethernet cable. It is helpful to measure the length of the RJ45 connector to the cable, add a couple millimeters, and make the cut there. Though, this is not necessary but can help eliminate the need to trim the wires later. Remove the outer sheath to expose the twisted wire pairs housed inside.
+3. For each pair of twisted wires, untwist and straighten them. Be careful of breaking off the wires while doing so.
+4. Order the wires to either the T-568A or T-568B standard. In the grand scheme of things, it doesn't matter which standard you choose. However, it is important that you choose one standard and stick to it. You should not have one end of the ethernet cable be T-568A and the other end be T-568B. This creates a crossover cable, and devices connected to each other won't be able to communicate if they are expecting a straight-through connection. T-568B is more common in the US, and that is the standard this documentation will be using.
+5. If you made a huge cut when stripping the outer sheath of the ethernet cable, you should trim the length of the wires. Make sure that the wires are lined up straight, and make a straight, horizontal cut.
+6. Insert the ordered wires into an RJ45 connector, making sure that the wires stay in the T-568A or T-568B order. You should also make sure to have the gold contact pins of the RJ45 connector facing you when inserting the wires. There are two types of RJ45 connectors (also called 8P8C for 8 positions and 8 contacts): regular and pass-through. Pass-through RJ45 connectors will allow the wires to pass through the insulated conductor holes of the connector, making it easier for you to see if the wires remain in wiring standard you have chosen. Regular RJ45 connectors does not allow the wires to go through the conductor holes.
+7.  Insert the RJ45 connector, which should now have the wires inserted into it, into the RJ45 crimping tool and crimp the connector.
+
 https://www.digitaltrends.com/computing/different-types-of-ethernet-cables-explained/
 https://docs.seattlecommunitynetwork.org/learn/cable-crimping.html
 https://www.truecable.com/blogs/cable-academy/how-to-choose-the-right-cable
